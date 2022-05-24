@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/clion/2sem/cube/cube.cpp
+iostream
+-
+vector
+-
+Windows.h
+-
+random
+-
+fstream
+-
+
+C:/clion/2sem/cube/main.cpp
+cube.cpp
+C:/clion/2sem/cube/cube.cpp
+
